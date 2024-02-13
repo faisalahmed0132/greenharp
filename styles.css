@@ -1,0 +1,82 @@
+        body {
+            background-color: #000000;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .nav {
+            background-color: #000000;
+            overflow: hidden;
+        }
+        .nav a {
+            float: right;
+            display: block;
+            color: rgb(25, 165, 3);
+            text-align: center;
+            padding: 20px 50px;
+            margin-top: 20px;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-family: 'Arial', sans-serif;
+                font-size: 24px;
+                font-weight: bold;
+                color: #00ff00; /* Neon green color, you can change this to your desired neon color */
+                text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00; /* Adding a neon glow effect */
+              
+              
+            
+        }
+        .nav a:hover {
+            background-color: #043502;
+            color: black;
+        }
+        .featured-image {
+            width: 800PX;
+            height: 375PX;
+        }
+        .lol{
+margin-left: 40px;
+margin-top: 20px;
+
+        }
+        .lol11{
+margin-left: 400px;
+
+
+        }
+     
+
+       /* إضافة هامش بين القائمة والصور */
+       .li1 li {
+        display: flex;
+        align-items: center; /* توسيع الصورة والنص في نفس الارتفاع */
+        justify-content: space-between; /* وضع المسافة بين الصورة والنص على يمين الصورة */
+        margin-bottom: px; /* مسافة بين العناصر */
+    }
+    
+    .li1 img {
+        width: 40vw; /* تحديد عرض الصورة بناءً على نسبة عرض الشاشة */
+        height: auto;
+         /* الحفاظ على نسبة العرض إلى الارتفاع الأصلي للصورة */
+         margin: 60px;
+
+        margin-left: -400px;
+    }
+    
+    .li1 pre {
+        font-size: 20px;
+        color: rgb(13, 131, 2);
+        margin-left: 10px; /* مسافة بين الصورة والنص على يمين الصورة */
+    }
+    .li1 span {
+        font-size: 20px;
+        color: rgb(211, 211, 211);
+margin-bottom: 150px;    
+    margin-right: 200px; /* مسافة بين الصورة والنص على يمين الصورة */
+    }
+    
+ .video-container{
+
+margin-left: 150px;
+
+
+ }
